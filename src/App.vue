@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <my-component></my-component>
+    <div class="conatiner">
+      <product-list />
+    </div>
   </div>
 </template>
 
 <script>
-import MyComponent from './components/MyComponent';
+import ProductList from './components/ProductList'
+
 export default {
   name: 'App',
   components: {
-    MyComponent
-}
+    ProductList
+  }
 }
 </script>
+
 
 <style>
 #app {
